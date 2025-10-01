@@ -19,44 +19,28 @@
 
     <dependencies>
         <dependency>
-
             <groupId>org.glassfish.jersey.containers</groupId>
-
-            <artifactId>jersey-container- servlet</artifactId>
-
-            <versión>4.0.0-M1</versión>
-
+            <artifactId>jersey-container-servlet</artifactId>
+            <version>4.0.0-M1</version>
         </dependency>
 
         <dependency>
-
-            <groupId>org.glassfish.jersey.media
-
-            </groupId>
-
-            <artifactId>jersey-media-json- jackson</artifactId>
-
-            <versión>4.0.0-M1</versión>
-
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-json-jackson</artifactId>
+            <version>4.0.0-M1</version>
         </dependency>
 
         <dependency>
-
             <groupId>org.glassfish.jersey.inject</groupId>
-
-            <artifactId>jersey-cdi2-se</ artifactId>
-
-            <versión>4.0.0-M1</versión>
-
+            <artifactId>jersey-cdi2-se</artifactId>
+            <version>4.0.0-M1</version>
         </dependency>
 
         <dependency>
-
-            <groupId>org.jboss.weld.se</ groupId>
-
-            <artifactId>weld-se-core</ artifactId>
-
-        </dependency> <version>6.0.0.Beta4</version>
+            <groupId>org.jboss.weld.se</groupId>
+            <artifactId>weld-se-core</artifactId>
+            <version>6.0.0.Beta4</version>
+        </dependency>
 
         <dependency>
             <groupId>jakarta.servlet</groupId>
@@ -64,12 +48,14 @@
             <version>6.1.0</version>
             <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
