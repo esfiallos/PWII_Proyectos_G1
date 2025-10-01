@@ -1,7 +1,7 @@
-# Compiled class file
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
 
 # BlueJ files
@@ -10,7 +10,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
@@ -19,6 +19,52 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs
 hs_err_pid*
 replay_pid*
+
+# ------------------------------
+# IntelliJ IDEA
+# ------------------------------
+.idea/
+*.iml
+*.iws
+out/
+# IntelliJ workspace and project files
+.idea_modules/
+*.ipr
+
+# ------------------------------
+# Eclipse (opcional si trabajas con Eclipse también)
+# ------------------------------
+.project
+.classpath
+.settings/
+
+# ------------------------------
+# Maven / Gradle
+# ------------------------------
+target/
+build/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+# Si usas Gradle
+.gradle/
+build/
+
+# ------------------------------
+# Tomcat / Servlets / JSP
+# ------------------------------
+# Directorios de trabajo de Tomcat
+work/
+temp/
+logs/
+# Archivos generados por JSP
+*.jsp.java
+*.jsp.class
+# Contextos de aplicaciones
+*.war
+*.ear
