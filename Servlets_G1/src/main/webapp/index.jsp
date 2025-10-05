@@ -16,7 +16,7 @@
         <nav class="sidebar-nav">
             <ul class="sidebar-nav">
                 <li class="nav-item"><a href="binario.html" class="nav-link"><span>Binarios</span></a></li>
-                <li class="nav-item"><a href="#" class="nav-link"><span>Mayor/Menor</span></a></li>
+                <li class="nav-item"><a href="MenorDeTres.html" class="nav-link"><span>Mayor/Menor</span></a></li>
                 <li class="nav-item"><a href="#" class="nav-link"><span>Hipotenusa</span></a></li>
             </ul>
         </nav>

@@ -6,7 +6,9 @@ import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
 
-@Override
+@WebServlet(name = "MenorDeTres", value = "/MenorDeTres")
+public class MenorDeTres extends HttpServlet {
+
 protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
     response.setContentType("text/html;charset=UTF-8");
     PrintWriter out = response.getWriter();
@@ -42,7 +44,8 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
         out.println("<p>Número 2: " + num2 + "</p>");
         out.println("<p>Número 3: " + num3 + "</p>");
         out.println("<p class='highlight'>El menor número es: " + menor + "</p>");
-        out.println("<a href='index.html'>Volver</a>");
+        out.println("<a href='MenorDeTres.html'>Volver Ejercicio</a>");
+        out.println("<a href='index.jsp'>Volver al Menu</a>");
         out.println("</div>");
         out.println("</body>");
         out.println("</html>");
