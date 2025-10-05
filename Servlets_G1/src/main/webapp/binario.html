@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversión Binarios</title>
+    <link rel="stylesheet" href="binary_style.css">
+</head>
+<body>
+    <h1>Conversión Binarios</h1>
+    <form method="post" action="binario">
+        <label for="operacion">Operación</label>
+        <select name="operacion" id="operacion" required>
+            <option value="B1" >Binario a Decimal</option>
+            <option value="B2" >Decimal a Binario</option>
+        </select>
+
+        <label for="numero">Número</label>
+        <input type="number" name="numero" id="numero" required>
+
+        <button type="submit">Convertir</button>
+    </form>
+</body>
+</html>
