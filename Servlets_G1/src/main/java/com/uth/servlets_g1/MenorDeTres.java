@@ -40,6 +40,8 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
         out.println("<body>");
         out.println("<div class='result'>");
         out.println("<h2>Resultado del cálculo</h2>");
+        out.println("<h2>Nombre: Daniel de jesus Montoya Rodríguez\n</h2>");
+        out.println("<h2>Cuenta: 202330060138</h2>");
         out.println("<p>Número 1: " + num1 + "</p>");
         out.println("<p>Número 2: " + num2 + "</p>");
         out.println("<p>Número 3: " + num3 + "</p>");
